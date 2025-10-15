@@ -199,31 +199,31 @@ const Landing = () => {
 
             {/* eight projects */}
             <section>
-                <div className="bg-lime-600 flex gap-10">
-                    <div className="w-[50%]"></div>
-                    <div className="flex">
-                        <div className="w-[50%] flex items-center px-10 gap-10">
-                            <img src="/src/assets/images/chain.png" alt="" className="w-20 h-full object-cover" />
+                <div className="bg-lime-600 flex flex-col md:flex-row gap-4 md:gap-10">
+                    <div className="hidden md:block md:w-[50%]"></div>
+                    <div className="flex w-full md:w-[50%]">
+                        <div className="flex flex-col sm:flex-row items-center px-4 md:px-2 gap-4 md:gap-10 w-full">
+                            <img src="/src/assets/images/chain.png" alt="" className="hidden sm:block w-16 sm:w-20 h-full object-contain" />
 
-                            <p className="text-lg font-medium py-5">
-                                Our integrated approach is built on seven
+                            <div className="text-sm sm:text-md md:text-lg text-center sm:text-left py-6 md:py-10 w-full font-semibold italic">
+                                Our integrated approach is built on eight
                                 interconnected products, working in harmony
                                 to deliver a 360-degree experience.
-                            </p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4  bg-white">
-                    <div className="">
-                    <div className="-mt-30">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 bg-white">
+                    <div className="order-1 lg:order-1">
+                    <div className="-mt-10 sm:-mt-15 md:-mt-20 lg:-mt-25">
                         <img src="/src/assets/images/gorilla_tem.png" alt="" className="w-full h-full object-cover" />
                     </div>
-                      <div className="">
-                     <h1 className="font-bold text-2xl lg:p-5 text-center text-lime-600">
+                      <div className="px-2 sm:px-4">
+                     <h1 className="font-bold text-xl sm:text-2xl lg:text-3xl p-3 lg:p-5 text-center text-lime-600">
                             An ecosystem of eight products to transform travel and hospitality.
                         </h1>
 
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-sm p-5">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-5 text-xs sm:text-sm p-3 sm:p-5">
                             
                             <div className="">
                                 <div className="flex justify-start items-center gap-1">
@@ -270,18 +270,18 @@ const Landing = () => {
                 </div>
                     </div>
 
-                      <div className="">
-                         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-sm p-5">
+                      <div className="order-2 lg:order-2">
+                         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-5 text-xs sm:text-sm p-3 sm:p-5">
                             
-                            <div className="">
-                                <div className="flex justify-start items-center gap-1">
-                                    <img src={threeg} alt="" />
+                            <div className="mb-4 sm:mb-6">
+                                <div className="flex justify-start items-start sm:items-center gap-2 sm:gap-3">
+                                    <img src={threeg} alt="" className="w-8 sm:w-10 md:w-12 flex-shrink-0" />
                                     <div>
-                                        <h1 className="text-lime-600 font-bold" >Travooz Concierge & Support </h1>
-                                        <p className="italic font-bold">White-Glove Service, Digitally Enhanced</p>
+                                        <h1 className="text-lime-600 font-bold text-sm sm:text-base" >Travooz Concierge & Support </h1>
+                                        <p className="italic font-bold text-xs sm:text-sm">White-Glove Service, Digitally Enhanced</p>
                                     </div>
                                 </div>
-                                <p className="mt-3 ps-8">
+                                <p className="mt-2 sm:mt-3 ps-6 sm:ps-8 text-xs sm:text-sm leading-relaxed">
                                 From the moment a visitor lands, we ensure
                                 seamless comfort. Our services include
                                 airport pickup, mobile internet connectivity,
