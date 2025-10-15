@@ -42,12 +42,12 @@ const Landing = () => {
             <div className="absolute inset-0 bg-black/40 z-10"></div>
             
             <div className="text-center flex justify-center flex-col py-10 md:py-15 px-4 relative z-20">
-                <h1 className="text-white text-3xl md:text-5xl lg:text-6xl" >THE</h1>
+                <h1 className="text-white text-3xl md:text-5xl lg:text-5xl font-light tracking-wide " >THE</h1>
                 <div className="flex justify-center py-2">
                     <img src={travooz} alt="" className="w-[200px] md:w-[300px] lg:w-[400px]" />
                 </div>
-                <h1 className="text-white text-3xl md:text-5xl lg:text-6xl" >PROJECTS</h1>
-                <h1 className="text-white text-lg md:text-3xl font-bold flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center mt-4">
+                <h1 className="text-white text-3xl md:text-5xl lg:text-5xl font-light tracking-wide " >PROJECTS</h1>
+                <h1 className="text-white text-lg md:text-3xl font-semibold flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center mt-4">
                     <span>EXPLORE</span>
                     <span className="hidden md:inline"><i class="fa-solid fa-circle text-[8px] "></i></span>
                     <span> INVEST</span>
@@ -524,6 +524,32 @@ const Landing = () => {
             <HmsPage />
             <Events />
             <Guide />
+
+            {/* Footer */}
+            <footer className="bg-lime-600 text-white py-3">
+                <div className="max-w-6xl mx-auto px-4">
+                    <div className="text-center space-y-4">
+                        {/* Logo Section */}
+                        <div className="space-y-2">
+                            <h1 className="text-2xl font-light tracking-wide">THE</h1>
+                            <div className="flex justify-center">
+                                <img src={travooz} alt="Travooz Logo" className="w-30" />
+                            </div>
+                            <h1 className="text-2xl font-light tracking-wide">PROJECT</h1>
+                        </div>
+
+                        {/* Contact Information */}
+                        <div className="space-y-2">
+                            <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-6">
+                                <span className="font-medium">+250 788 394 395</span>
+                                <span className="hidden sm:inline text-lg">|</span>
+                                <span className="font-medium">+250 793 903 844</span>
+                            </div>
+                            <p className="font-medium">www.thetravoozproject.rw</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
             {/* Back to Top Button */}
             <button 
