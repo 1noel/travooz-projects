@@ -47,7 +47,7 @@ const Landing = () => {
                     <img src={travooz} alt="" className="w-[200px] md:w-[300px] lg:w-[400px]" />
                 </div>
                 <h1 className="text-white text-3xl md:text-5xl lg:text-5xl font-light tracking-wide " >PROJECTS</h1>
-                <h1 className="text-white text-lg md:text-3xl font-semibold flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center mt-4">
+                <h1 className="text-white text-lg md:text-2xl font-semibold flex flex-col md:flex-row justify-center gap-2 md:gap-4 items-center mt-4">
                     <span>EXPLORE</span>
                     <span className="hidden md:inline"><i class="fa-solid fa-circle text-[8px] "></i></span>
                     <span> INVEST</span>
@@ -58,8 +58,8 @@ const Landing = () => {
 
 
             <div className="bg-lime-600/35 p-3 md:p-5 w-[80%] md:w-[50%] text-center text-white rounded-xl mx-auto mt-10 relative z-20">
-            <h1 className="text-xl md:text-3xl" >PRODUCTS</h1>
-            <h1 className="text-3xl md:text-5xl">CATALOGUE</h1>
+            <h1 className="text-xl md:text-2xl font-ligth  tracking-wide" >PRODUCTS</h1>
+            <h1 className="text-3xl md:text-4xl font-ligth  tracking-wide">CATALOGUE</h1>
             </div>
             </section>
 
