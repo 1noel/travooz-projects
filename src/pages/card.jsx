@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import five from "../assets/images/5.png";
+import travoozCard from "../assets/images/travooz_card.png";
+import card from "../assets/images/card.png";
 
 const Card = () => {
     return (
@@ -18,7 +20,7 @@ const Card = () => {
                         </div>
 
                         <div className="flex-1 flex items-center justify-center mt-4 -ms-5">
-                            <img src="/src/assets/images/travooz_card.png" alt="" className="w-full h-auto max-w-sm lg:max-w-md xl:max-w-lg" />
+                            <img src={travoozCard} alt="" className="w-full h-auto max-w-sm lg:max-w-md xl:max-w-lg" />
                         </div>
                     </div>
 
@@ -67,7 +69,7 @@ const Card = () => {
                            <div>
                            
                            <div>
-                            <img src="/src/assets/images/card.png" alt="" />
+                            <img src={card} alt="" />
                            </div>
 
                             <div className="space-y-3 lg:space-y-5 text-xs lg:text-sm mt-3">

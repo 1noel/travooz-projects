@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import one from "../assets/images/1.png";
+import travoozPerson from "../assets/images/travooz-person.png";
+import travoozGorilla from "../assets/images/travooz-gorilla.png";
 
 const Travooz = () => {
     return (
@@ -18,7 +20,7 @@ const Travooz = () => {
                         </div>
 
                         <div className="flex-1 flex items-center justify-center">
-                            <img src="/src/assets/images/travooz-person.png" alt="" className="w-full max-w-xs lg:max-w-none" />
+                            <img src={travoozPerson} alt="" className="w-full max-w-xs lg:max-w-none" />
                         </div>
                     </div>
 
@@ -88,7 +90,7 @@ const Travooz = () => {
                                 </p>
                             </div>
                               <div className="relative -mr-4 lg:-mr-10 overflow-visible mt-4 lg:mt-6">
-                                <img src="/src/assets/images/travooz-gorilla.png" alt="" className="w-full h-auto" />
+                                <img src={travoozGorilla} alt="" className="w-full h-auto" />
                             </div>
 
                               <p className="text-xs lg:text-sm mt-3 lg:mt-4">

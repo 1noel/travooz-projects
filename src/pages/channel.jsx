@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import two from "../assets/images/2.png";
+import channelP from "../assets/images/channel_p.png";
 
 const Channel = () => {
     return (
@@ -18,7 +19,7 @@ const Channel = () => {
                         </div>
 
                         <div className="flex-1 flex items-center justify-center">
-                            <img src="/src/assets/images/channel_p.png" alt="" className="w-full max-w-xs lg:max-w-none" />
+                            <img src={channelP} alt="" className="w-full max-w-xs lg:max-w-none" />
                         </div>
                     </div>
 

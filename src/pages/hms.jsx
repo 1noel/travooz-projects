@@ -1,6 +1,10 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import six from "../assets/images/6.png";
+import frontDesk from "../assets/images/front_desk.png";
+import okapi from "../assets/images/okapi.png";
+import simba from "../assets/images/simba.png";
+import inzovu from "../assets/images/inzovu.png";
 
 const HmsPage = () => {
     return (
@@ -19,7 +23,7 @@ const HmsPage = () => {
 
                         <div className="flex-1 flex items-end justify-center overflow-visible -ms-20 ">
                             <img 
-                                src="/src/assets/images/front_desk.png" 
+                                src={frontDesk} 
                                 alt="" 
                                 style={{
                                     width: '400px',
@@ -70,7 +74,7 @@ const HmsPage = () => {
                             <div className="space-y-2 lg:space-y-3 mt-4 lg:mt-5">
                                 <div className="p-1 lg:p-3 flex justify-start items-center bg-lime-100 rounded-lg gap-2 lg:gap-3">
                                     <span className="w-6 h-6 lg:w-12 lg:h-12 flex-shrink-0">
-                                        <img src="/src/assets/images/okapi.png" alt="Package icon" className="w-full h-full object-contain" />
+                                        <img src={okapi} alt="Package icon" className="w-full h-full object-contain" />
                                     </span>
                                     <div className="text-xs lg:text-sm">
                                         <p className="font-bold">Package 1 (Okapi):</p>
@@ -79,7 +83,7 @@ const HmsPage = () => {
                                 </div>
                                 <div className="p-1 lg:p-3 flex justify-start items-center bg-lime-100 rounded-lg gap-2 lg:gap-3">
                                     <span className="w-6 h-6 lg:w-12 lg:h-12 flex-shrink-0">
-                                        <img src="/src/assets/images/simba.png" alt="Package icon" className="w-full h-full object-contain" />
+                                        <img src={simba} alt="Package icon" className="w-full h-full object-contain" />
                                     </span>
                                     <div className="text-xs lg:text-sm">
                                         <p className="font-bold">Package 2 (Simba):</p>
@@ -88,7 +92,7 @@ const HmsPage = () => {
                                 </div>
                                 <div className="p-1 lg:p-3 flex justify-start items-center bg-lime-100 rounded-lg gap-2 lg:gap-3">
                                     <span className="w-6 h-6 lg:w-12 lg:h-12 flex-shrink-0">
-                                        <img src="/src/assets/images/inzovu.png" alt="Package icon" className="w-full h-full object-contain" />
+                                        <img src={inzovu} alt="Package icon" className="w-full h-full object-contain" />
                                     </span>
                                     <div className="text-xs lg:text-sm">
                                         <p className="font-bold">Package 3(Nzovu):</p>

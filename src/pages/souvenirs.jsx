@@ -3,6 +3,7 @@ import Navigation from "../components/navigation";
 import three from "../assets/images/3.png";
 import four from "../assets/images/4.png";
 import coffee from "../assets/images/coffee.png";
+import travoozCar from "../assets/images/travooz_car.png";
 
 const Souvenirs = () => {
     return (
@@ -44,7 +45,7 @@ const Souvenirs = () => {
                         </div>
 
                         <div className="flex-1 flex items-center justify-center">
-                            <img src="/src/assets/images/travooz_car.png" alt="" className="w-full h-auto max-w-md xl:max-w-lg -ms-10" />
+                            <img src={travoozCar} alt="" className="w-full h-auto max-w-md xl:max-w-lg -ms-10" />
                         </div>
                     </div>
 

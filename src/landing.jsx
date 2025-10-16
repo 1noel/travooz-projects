@@ -22,6 +22,8 @@ import fiveg from './assets/images/5g.png';
 import sixg from './assets/images/6g.png';
 import seveng from './assets/images/7g.png';
 import eigthg from './assets/images/8g.png';
+import chain from './assets/images/chain.png';
+import gorillaTem from './assets/images/gorilla_tem.png';
 import Travooz from "./pages/travooz";
 import Channel from "./pages/Channel";
 import Souvenirs from "./pages/souvenirs";
@@ -203,7 +205,7 @@ const Landing = () => {
                     <div className="hidden md:block md:w-[50%]"></div>
                     <div className="flex w-full md:w-[50%]">
                         <div className="flex flex-col sm:flex-row items-center px-4 md:px-2 gap-4 md:gap-10 w-full">
-                            <img src="/src/assets/images/chain.png" alt="" className="hidden sm:block w-16 sm:w-20 h-full object-contain" />
+                            <img src={chain} alt="" className="hidden sm:block w-16 sm:w-20 h-full object-contain" />
 
                             <div className="text-sm sm:text-md md:text-lg text-center sm:text-left py-6 md:py-10 w-full font-semibold italic">
                                 Our integrated approach is built on eight
@@ -216,7 +218,7 @@ const Landing = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 p-4 bg-white">
                     <div className="order-1 lg:order-1">
                     <div className="-mt-10 sm:-mt-15 md:-mt-20 lg:-mt-25">
-                        <img src="/src/assets/images/gorilla_tem.png" alt="" className="w-full h-full object-cover" />
+                        <img src={gorillaTem} alt="" className="w-full h-full object-cover" />
                     </div>
                       <div className="px-2 sm:px-4">
                      <h1 className="font-bold text-xl sm:text-2xl lg:text-3xl p-3 lg:p-5 text-center text-lime-600">

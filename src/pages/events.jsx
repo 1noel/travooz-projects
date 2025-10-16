@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from "../components/navigation";
 import seven from "../assets/images/7.png";
+import sport from "../assets/images/sport.png";
+import sport2 from "../assets/images/sport2.png";
 
 const Travooz = () => {
     return (
@@ -18,7 +20,7 @@ const Travooz = () => {
                         </div>
 
                         <div className="flex-1 flex items-center justify-center -ms-20">
-                            <img src="/src/assets/images/sport.png" alt="" className="w-full h-full max-w-xs lg:max-w-none" />
+                            <img src={sport} alt="" className="w-full h-full max-w-xs lg:max-w-none" />
                         </div>
                     </div>
 
@@ -87,7 +89,7 @@ const Travooz = () => {
                         
                         {/* Full-width image spanning both columns */}
                         <div className="px-4 lg:px-10 pb-4 lg:pb-10">
-                            <img src="/src/assets/images/sport2.png" alt="" className="w-full h-auto" />
+                            <img src={sport2} alt="" className="w-full h-auto" />
                         </div>
                     </div>
                 </section>

@@ -2,6 +2,7 @@ import React from "react";
 import Navigation from "../components/navigation";
 import eight from "../assets/images/8.png";
 import gorilla from "../assets/images/gorilla.jpg";
+import gorillaRead from "../assets/images/gorilla_read.png";
 
 const Guide = () => {
     return (
@@ -45,7 +46,7 @@ const Guide = () => {
                              </div>
 
                         <div className="flex-1 flex items-center justify-center">
-                            <img src="/src/assets/images/gorilla_read.png" alt="" className="w-full max-w-xs lg:max-w-none" />
+                            <img src={gorillaRead} alt="" className="w-full max-w-xs lg:max-w-none" />
                         </div>
                     </div>
 
