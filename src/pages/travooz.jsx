@@ -6,8 +6,9 @@ import travoozGorilla from "../assets/images/travooz-gorilla.png";
 
 const Travooz = () => {
     return (
-            <main className="pt-16">
-                <section className="flex flex-col lg:flex-row min-h-screen">
+        <main className="bg-white">
+            <Navigation />
+            <section className="pt-16 flex flex-col lg:flex-row min-h-screen">
                     <div className="w-full lg:w-[25%] bg-lime-600 flex items-center justify-center min-h-[200px] lg:min-h-full"> 
                         <img src={one} alt="Image" className="w-full h-auto max-w-xs lg:max-w-none" />
                     </div>

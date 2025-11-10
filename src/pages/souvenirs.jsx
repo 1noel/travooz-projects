@@ -7,7 +7,9 @@ import travoozCar from "../assets/images/travooz_car.png";
 
 const Souvenirs = () => {
     return (
-            <main className="pt-16">
+        <main className="bg-white">
+            <Navigation />
+            <div className="pt-16">
                 <section className="flex flex-col xl:flex-row min-h-screen">
                     <div className="w-full xl:w-[25%] bg-lime-600 flex items-center justify-center min-h-[200px] xl:min-h-full"> 
                         <img src={three} alt="Image" className="w-full h-auto max-w-xs xl:max-w-none" />
@@ -114,7 +116,8 @@ const Souvenirs = () => {
                             </div>
                     </div>
                 </section>
-            </main>
+            </div>
+        </main>
     )
 }
 

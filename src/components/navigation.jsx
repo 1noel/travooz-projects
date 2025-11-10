@@ -21,13 +21,10 @@ const Navigation = () => {
     
     const navLinks = [
         { name: "Home", href: "/", isRoute: true },
-        { name: "Travooz", href: "/travooz", isRoute: true },
-        { name: "Channel", href: "/channel", isRoute: true },
-        { name: "Souvenirs", href: "/souvenirs", isRoute: true },
-        { name: "Card", href: "/card", isRoute: true },
-        { name: "HMS", href: "/hms", isRoute: false },
-        { name: "Events", href: "/events", isRoute: true },
-        { name: "Guide", href: "/guide", isRoute: true }
+        { name: "About Us", href: "/about", isRoute: true },
+        { name: "Products", href: "/products", isRoute: true },
+        { name: "Gallery", href: "/gallery", isRoute: true },
+        { name: "Contact", href: "/contact", isRoute: true }
     ];
 
     return (

@@ -6,7 +6,9 @@ import card from "../assets/images/card.png";
 
 const Card = () => {
     return (
-            <main className="pt-16">
+        <main className="bg-white">
+            <Navigation />
+            <div className="pt-16">
                 <section className="flex flex-col lg:flex-row min-h-screen">
                     <div className="w-full lg:w-[25%] bg-lime-600 flex items-center justify-center min-h-[200px] lg:min-h-full"> 
                         <img src={five} alt="Image" className="w-full h-auto max-w-xs lg:max-w-none" />
@@ -107,7 +109,8 @@ const Card = () => {
                         </div>
                     </div>
                 </section>
-            </main>
+            </div>
+        </main>
     )
 }
 
